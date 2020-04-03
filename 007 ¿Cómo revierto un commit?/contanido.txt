@@ -1,22 +1,29 @@
-Comandos 
+﻿Comandos 
 
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 {git log  --oneline --decorate}
+Se utiliza para ver los  punteros de las ramas en consola 
 Definicion en https://devdocs.io/git/git-log
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------
-{git revert [codigocomit]}   Revierte los cambios hechios en un comit en espacifico 
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
+{git revert [codigocomit]}   Revierte los cambios hechos en un comit en espacifico 
+--------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 {git reset} devielve le repositorio al estado anterior 
 Mas aqui https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 {git revert -no-commit [codigocommmit]}
-En ete podemos revertir los cambios sin tener que hacer un nuevo commit. Este acepta varios reverse con el parametro --no=commit para luego usar {git reverse --contiue} est hara que todas las declaraciones reverse se unan en un solo commit 
+Con este podemos revertir los cambios sin tener que hacer un nuevo commit. 
+Este acepta varios reverse con el parámetro --no=commit para luego usar 
+{git reverse --contiue} este hará que todas las declaraciones reverse se 
+unan en un solo commit 
 
---------------------------------------------------------------------------------------
-
+--------------------------------------------------------------------------
+Para comparar los  cambios que se realizaron desde un commit hasta otro basta con escribir 
+ ------------------------------------------
+ {git diff codigohashdesde codigohashsta}
+ ------------------------------------------
