@@ -1,0 +1,3 @@
+﻿
+
+Una breve descripción c donde podemos buscar la información necesaria de los comandos  y adicionalmente referencias a los comandos de ayuda para ver la información actualizada en consola. No están todos, sin embargo estarán los que mas usamos y técnicas para encontrar mas información especifica según la necesidad e cada usuario 
