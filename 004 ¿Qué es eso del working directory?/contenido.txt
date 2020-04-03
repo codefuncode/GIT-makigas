@@ -17,7 +17,7 @@ Muestra el estado del árbol de trabajo
 Muestra los cambios entre commits, commit y árbol de trabajo, etc
 ------------------------------------------------------------------
 
-----------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 {git add}              
 Agrega contenido de carpetas al índice
 POdemos agregar todo con [ git add . ] o podemos ser selectivos  
@@ -28,17 +28,24 @@ Para ver todas las conjuciones aqui https://git-scm.com/docs/git-add
 git por lo que todos los cambios que no se agregaron con {add} no  podrán 
 pasar al estado de commit. Cuando realizamos commit solo realizamos los 
 cambios que previamente agregamos con {add} 
-----------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------
 Cuando realizamos un {git log} en las descripciones nos muestra el identificador 
 de cada commit 
 ----------------------------------------------------------------------------------
+
 --------------------------------------------------------------------------------------
 Si usamos {git difftool --tool-help} veremos una lista de herramientas 
 disponibles para comparar codificación
 https://git-scm.com/book/es/v2/Fundamentos-de-Git-Guardando-cambios-en-el-Repositorio
 --------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
+{git commit --amend}              
+enmendar commit previo
+Con ese comando solo volvemos al commit anterior 
+-------------------------------------------------------------------------------------
 
 
 
