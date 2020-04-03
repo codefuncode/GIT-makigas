@@ -1,4 +1,4 @@
-﻿
+
 En este tutorial se utilisa 
 
 mkdir 
@@ -21,6 +21,10 @@ Como istalar git
 Crear mi primer commit 
 
 Que es esto de working directory
+
+Cómo deshago una modificación 
+
+¿Cómo deshago un commit?
 =====================================================================
 
 Video tutorial 
