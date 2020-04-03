@@ -22,7 +22,7 @@ Elimina cambios del status ademas tene varios argumentos >>>> { [--soft ], [--mi
 
 -----------------------------------------------------------------------------------------------
 {git reset --hard}
-desghace todos los cambios incluidos los del status 
+Desghace todos los cambios incluidos los del status 
 -----------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
