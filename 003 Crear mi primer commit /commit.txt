@@ -4,33 +4,44 @@
 Comandos usados en el tutorial 
 
 ===============================
-En este modulo se trabaja con las primeras instrucciones para incorporar git en nuestro proyecto 
+Si escribimos en comando git en la consola y tenemos git instalado nos devolverá 
+un listado de comandos que podemos utilizar en nuestro proyecto. 
 
-Debemos  usar para agregar un archivo de seguimiento dentro del proyecto
----------
-git init
----------
-
-Luego podemos agregar archivos y carpetas con el comando 
----------
-git add 
----------
-
-para verificar el estado de los archivos usaremos 
----------
-git status
----------
+Los siguientes comandos se usan generalmente la principio, estos para incorporar git a nuestro proyecto 
 
 
-Para realizar un commit usamos:
+-------------------------------------------------------------
+{git init}
+Crea un repositorio de Git vacío o reinicia el que ya existe
+-------------------------------------------------------------
+
+
+------------------------------------------------------------
+{git add}
+Agrega contenido de carpetas al índice
+------------------------------------------------------------
+
+-----------------------------------------------------------
+{git status}
+Muestra el estado del árbol de trabajo
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+{git commit}
+Graba los cambios en tu repositorio
+-----------------------------------------------------------
+
+
+**** Para realizar un commit usamos:
 ------------------------------------
-git commit -m "mensaje del commit "
-------------------------------------
+{git commit -m "mensaje del commit"}
 Esto evita abrir el editor por defecto en tu sistema
+------------------------------------
 
 
 Referencias 
 
 https://www.youtube.com/watch?v=UJGKWMHX038&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=3
+https://www.tutorialspoint.com/git/index.htm
 
 
