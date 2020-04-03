@@ -5,6 +5,95 @@
 Usamos{ git log }para ver todos los commit 
 
 
-Para ver todos los commit y adfemas ver una linea  donde esta lo nesesario para identificarlos  usamos 
-{git log --oneline
-}
+Para ver todos los commit y adfemas ver una linea  donde esta lo nesesario para identificarlos  usamos  {git log --oneline}
+
+Usamos el  comando {git reset}
+
+{""}
+
+Descripcion
+
+El comando git reset es una herramienta compleja y versátil para deshacer cambios. Tiene tres formas principales de invocación. Estas formas corresponden a argumentos de línea de comando --soft, --mixed, --hard. Cada uno de los tres argumentos corresponde a los tres mecanismos internos de gestión de estado de Git, The Commit Tree (HEAD), The Staging Index y The Working Directory. 
+
+Git Reset y tres árboles de Git
+Para comprender correctamente el uso de git reset, primero debemos comprender los sistemas internos de gestión de estado de Git. A veces estos mecanismos se llaman los 'tres árboles' de Git. Los árboles pueden ser un nombre inapropiado, ya que no son estructuras de datos de árboles estrictamente tradicionales. Sin embargo, son estructuras de datos basadas en nodos y punteros que Git usa para rastrear una línea de tiempo de ediciones. La mejor manera de demostrar estos mecanismos es crear un conjunto de cambios en un repositorio y seguirlo a través de los tres árboles.
+
+Para comenzar, crearemos un nuevo repositorio con los siguientes comandos:
+----------------------------------------------------------------------------
+$ mkdir git_reset_test
+$ cd git_reset_test/
+$ git init .
+Initialized empty Git repository in /git_reset_test/.git/
+$ touch reset_lifecycle_file
+$ git add reset_lifecycle_file
+$ git commit -m"initial commit"
+[master (root-commit) d386d86] initial commit
+1 file changed, 0 insertions(+), 0 deletions(-)
+create mode 100644 reset_lifecycle_file
+----------------------------------------------------------------------------
+
+
+/////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+
+
+$ mkdir git_reset_test
+$ cd git_reset_test/
+$ git init .
+Initialized empty Git repository in /git_reset_test/.git/
+$ touch reset_lifecycle_file
+$ git add reset_lifecycle_file
+$ git commit -m"initial commit"
+[master (root-commit) d386d86] initial commit
+1 file changed, 0 insertions(+), 0 deletions(-)
+create mode 100644 reset_lifecycle_file
+
+
+---------------------------------------------------------------------------------
+
+$ echo 'hello git reset' > reset_lifecycle_file
+
+$ git status 
+
+On branch master 
+
+Changes not staged for commit: 
+
+(use "git add ..." to update what will be committed) 
+
+(use "git checkout -- ..." to discard changes in working directory) 
+
+modified: reset_lifecycle_file
+
+---------------------------------------------------------------------------------
+
+En nuestro repositorio de demostración, modificamos y agregamos algún contenido al archivo reset_lifecycle_file. Invocar el estado de git muestra que Git está al tanto de los cambios en el archivo. Estos cambios son actualmente parte del primer árbol, 'El directorio de trabajo'. El estado de Git se puede usar para mostrar cambios en el Directorio de trabajo. Se mostrarán en rojo con un prefijo 'modificado'.
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Índice de estadificación
+El siguiente es el árbol 'Índice de etapas'. Este árbol realiza un seguimiento de los cambios en el directorio de trabajo, que se han promovido con git add, para almacenarlos en la próxima confirmación. Este árbol es un mecanismo complejo de almacenamiento en caché interno. Git generalmente intenta ocultar los detalles de implementación del Índice de etapas del usuario.
+
+Para ver con precisión el estado del Índice de etapas, debemos utilizar un comando Git menos conocido git ls-files. El comando git ls-files es esencialmente una utilidad de depuración para inspeccionar el estado del árbol de índice de etapas.
+
+------------------------------------------------------------------------------------------
+
+git ls-files -s 
+100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0 reset_lifecycle_file
+------------------------------------------------------------------------------------------
+
+Aquí hemos ejecutado git ls-files con la opción -s o --stage. Sin la opción -s, la salida de git ls-files es simplemente una lista de nombres de archivos y rutas que actualmente forman parte del índice. La opción -s muestra metadatos adicionales para los archivos en el Índice provisional. Estos metadatos son los bits de modo del contenido en etapas, el nombre del objeto y el número de etapa. Aquí nos interesa el nombre del objeto, el segundo valor (d7d77c1b04b5edd5acfc85de0b592449e5303770). Este es un hash SHA-1 de objeto Git estándar. Es un hash del contenido de los archivos. El historial de confirmación almacena sus propios SHA de objeto para identificar punteros para confirmaciones y referencias y el índice de etapas tiene su propio SHA de objeto para rastrear versiones de archivos en el índice.
+
+
+A continuación, promoveremos el archivo reset_lifecycle_file modificado en el Índice de etapas
+
+------------------------------------------------------------------------------------------
+mas en https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
+------------------------------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////////////////////////////
