@@ -1,0 +1,23 @@
+﻿
+
+Cómo deshago una modificación
+
+------------------------------------------------------------
+{git checkout}
+Especificando el parámetro des pues de la instrucción revierte los cambios modificados 
+si estos no es tan en el estatus o sea que no realizamos una add de la modificación 
+
+Los paramentos pueden ser el nombre del archivo  y también el uso del punto para deshacer todos los cambios realizados por lo que se recomida realizar commit de trozos de código selectivos  para  evitarnos muchos contratiempos a la hora de trabajar con retrocesos en el tiempo con git 
+------------------------------------------------------------
+
+Para deshacer el ultimo commit usamos la palabra HEAD
+ejemplo [git checkout HEAD]
+
+
+
+
+Para ver los cambios realizados antes de usar {git add} usamos   {git diff}
+
+Para revertir los cambios cuando aun no hemos guardado  usamos  
+
+{  [ git checkout -- nombrearchivo.extencion ]}

@@ -1,8 +1,0 @@
-
-
-Cómo deshago una modificación
-
-
-Para ver los cambios realizados antes de usar { git add } usamos   { git diff }
-
-Para revertir los cambios cuando auun no hemos guardado  usamos  {  git checkout -- nombrearchivo.extencion }
