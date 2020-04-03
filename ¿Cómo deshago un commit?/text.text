@@ -1,3 +1,10 @@
 
 
 ¿Cómo deshago un commit?
+
+Usamos{ git log }para ver todos los commit 
+
+
+Para ver todos los commit y adfemas ver una linea  donde esta lo nesesario para identificarlos  usamos 
+{git log --oneline
+}
