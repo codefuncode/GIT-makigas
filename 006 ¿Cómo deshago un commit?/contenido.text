@@ -1,8 +1,12 @@
-
+﻿
 
 ¿Cómo deshago un commit?
 
-Usamos{ git log }para ver todos los commit 
+Usamos {git log} para ver todos los commit 
+
+*** Nota
+	Encontré información sobre agregar sub módulos que ya pertenecen a un repositorio  y así tendríamos un 
+	repositorio dentro de otro repositorio. la información esta aquí https://www.git-scm.com/docs/gitmodules
 
 
 Para ver todos los commit y adfemas ver una linea  donde esta lo nesesario para identificarlos  usamos  {git log --oneline}
@@ -128,4 +132,7 @@ A continuación, promoveremos el archivo reset_lifecycle_file modificado en el �
 ------------------------------------------------------------------------------------------
 mas en https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
 ------------------------------------------------------------------------------------------
-////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////
+Referencias 
+//////////////////////////////////////////////////////////////////////////////////
