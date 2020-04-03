@@ -25,6 +25,8 @@ Que es esto de working directory
 Cómo deshago una modificación 
 
 ¿Cómo deshago un commit?
+
+¿Cómo revierto un commit?
 =====================================================================
 
 Video tutorial 
