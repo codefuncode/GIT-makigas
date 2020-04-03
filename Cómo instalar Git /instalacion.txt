@@ -9,4 +9,7 @@ Para Ubuntu, este PPA proporciona la última versión estable de Git ascendente
 # add-apt-repository ppa:git-core/ppa # apt update; apt install git
 --------------------------------------------------------------------
 
+
+
+
 https://www.youtube.com/watch?v=1PiYqxog8mc&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=2

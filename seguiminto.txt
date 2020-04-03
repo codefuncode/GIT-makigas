@@ -14,23 +14,25 @@ para navegar por las carpetas
 Temario
 ---------- 
 
-Que es Git 
+1 - Que es Git 
 
-Como istalar git 
+2 - Como istalar git 
 
-Crear mi primer commit 
+3 - Crear mi primer commit 
 
-Que es esto de working directory
+4 - Que es esto de working directory
 
-Cómo deshago una modificación 
+5- Cómo deshago una modificación 
 
-¿Cómo deshago un commit?
+6 -¿Cómo deshago un commit?
 
-¿Cómo revierto un commit?
+6 - ¿Cómo revierto un commit?
 
-Introducción a las ramas (branches)
+7 - Introducción a las ramas (branches)
 
- Cómo crear, modificar y eliminar branches
+8 - Cómo crear, modificar y eliminar branches
+
+10 -  Commits bajo el workflow Feature Branch
 =====================================================================
 
 Video tutorial 
