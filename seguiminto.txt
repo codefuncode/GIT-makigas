@@ -1,0 +1,28 @@
+﻿
+En este tutorial se utilisa 
+
+mkdir 
+------
+para crear directorios 
+
+cd 
+---
+para navegar por las carpetas 
+
+=====================================================================
+----------
+Temario
+---------- 
+
+Que es Git 
+
+Como istalar git 
+
+Crear mi primer commit 
+
+Que es esto de working directory
+=====================================================================
+
+Video tutorial 
+
+https://www.youtube.com/playlist?list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU

@@ -1,0 +1,36 @@
+
+===============================
+
+Comandos uados en el tutorial 
+
+===============================
+
+
+Debemos  usar  para agregar un archivo de seguiminto dentro del proyecto
+---------
+git init
+---------
+
+Luego podemos agregar archivos y carpetas con el comando 
+---------
+git add 
+---------
+
+para verificar el estado de los archivos usaremos 
+---------
+git status
+---------
+
+
+Para realizar cun commit usamos 
+------------------------------------
+git commit -m "mensaje del commit "
+------------------------------------
+Esto evita abrir el editor nde texto por ahora ahastya qyue lo aprendamso a usar bien 
+
+
+Referencias 
+
+https://www.youtube.com/watch?v=UJGKWMHX038&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=3
+
+
