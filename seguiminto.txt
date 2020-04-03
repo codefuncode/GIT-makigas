@@ -26,11 +26,11 @@ Temario
 
 6 -¿Cómo deshago un commit?
 
-6 - ¿Cómo revierto un commit?
+7 - ¿Cómo revierto un commit?
 
-7 - Introducción a las ramas (branches)
+8 - Introducción a las ramas (branches)
 
-8 - Cómo crear, modificar y eliminar branches
+9 - Cómo crear, modificar y eliminar branches
 
 10 -  Commits bajo el workflow Feature Branch
 =====================================================================
