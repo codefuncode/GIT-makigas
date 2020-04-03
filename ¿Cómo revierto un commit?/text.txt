@@ -11,6 +11,12 @@ Definicion en https://devdocs.io/git/git-log
 
 --------------------------------------------------------------------------------------
 {git reset} devielve le repositorio al estado anterior 
- mas aqui https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
+Mas aqui https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+{git revert -no-commit [codigocommmit]}
+En ete podemos revertir los cambios sin tener que hacer un nuevo commit. Este acepta varios reverse con el parametro --no=commit para luego usar {git reverse --coniue} est hara que todas las declaraciones reverse se unan en un solo commit 
+
 --------------------------------------------------------------------------------------
 
