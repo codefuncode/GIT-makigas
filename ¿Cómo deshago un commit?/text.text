@@ -13,17 +13,17 @@ Comandos usados
 
 ------------------------------------------------------------------------------------------------
 {git reset}                    	
-Elimina cambios del state ademas tene varios argumentos >>>> { [--soft ], [--mixed], [--hard.] }
+Elimina cambios del status ademas tene varios argumentos >>>> { [--soft ], [--mixed], [--hard.] }
 -------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------------------------
 {git reset --hard}
-desghace todos los cambios incluidos los del state 
+desghace todos los cambios incluidos los del status 
 -----------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
 {git reset --soft}
-Elimina los cambios sin embargo no toca los del state 
+Elimina los cambios sin embargo no toca los del status 
 ------------------------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------------------
