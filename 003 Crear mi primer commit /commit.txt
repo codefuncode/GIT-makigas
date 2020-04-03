@@ -1,12 +1,12 @@
-
+﻿
 ===============================
 
-Comandos uados en el tutorial 
+Comandos usados en el tutorial 
 
 ===============================
+En este modulo se trabaja con las primeras instrucciones para incorporar git en nuestro proyecto 
 
-
-Debemos  usar  para agregar un archivo de seguiminto dentro del proyecto
+Debemos  usar para agregar un archivo de seguimiento dentro del proyecto
 ---------
 git init
 ---------
@@ -22,11 +22,11 @@ git status
 ---------
 
 
-Para realizar cun commit usamos 
+Para realizar un commit usamos:
 ------------------------------------
 git commit -m "mensaje del commit "
 ------------------------------------
-Esto evita abrir el editor nde texto por ahora ahastya qyue lo aprendamso a usar bien 
+Esto evita abrir el editor por defecto en tu sistema
 
 
 Referencias 

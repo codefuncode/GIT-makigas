@@ -1,4 +1,4 @@
-Debian / Ubuntu
+﻿Debian / Ubuntu
 Para la última versión estable para su lanzamiento de Debian / Ubuntu
 -----------------------
 # apt-get install git
@@ -9,7 +9,6 @@ Para Ubuntu, este PPA proporciona la última versión estable de Git ascendente
 # add-apt-repository ppa:git-core/ppa # apt update; apt install git
 --------------------------------------------------------------------
 
-
-
+Referencias  
 
 https://www.youtube.com/watch?v=1PiYqxog8mc&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=2
