@@ -42,9 +42,13 @@ Esto evita abrir el editor por defecto en tu sistema
 ------------------------------------
 
 
+////////////////////////////////////////////////////////////////////////////////////////////
+------------
 Referencias 
+------------
 
 https://www.youtube.com/watch?v=UJGKWMHX038&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=3
 https://www.tutorialspoint.com/git/index.htm
+////////////////////////////////////////////////////////////////////////////////////////////
 
 

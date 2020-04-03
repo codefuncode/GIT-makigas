@@ -2,4 +2,49 @@
 
 Comandos 
 
+--------------------------------
 {git log}
+Muestra los logs de los commits
+--------------------------------
+
+---------------------------------------
+{git status}
+Muestra el estado del árbol de trabajo
+---------------------------------------
+
+------------------------------------------------------------------
+{git diff }
+Muestra los cambios entre commits, commit y árbol de trabajo, etc
+------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+{git add}              
+Agrega contenido de carpetas al índice
+POdemos agregar todo con [ git add . ] o podemos ser selectivos  
+con [ git add nombre-carpeta/] o tambien [ git add nombre-archivo.extencion ]
+Para ver todas las conjuciones aqui https://git-scm.com/docs/git-add
+
+** Con {add} hasta que no lo implementamos no es un cambio significativo para 
+git por lo que todos los cambios que no se agregaron con {add} no  podrán 
+pasar al estado de commit. Cuando realizamos commit solo realizamos los 
+cambios que previamente agregamos con {add} 
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+Cuando realizamos un {git log} en las descripciones nos muestra el identificador 
+de cada commit 
+----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Si usamos {git difftool --tool-help} veremos una lista de herramientas 
+disponibles para comparar codificación
+https://git-scm.com/book/es/v2/Fundamentos-de-Git-Guardando-cambios-en-el-Repositorio
+--------------------------------------------------------------------------------------
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+Referencias 
+https://git-scm.com/docs/git-add
+https://www.youtube.com/watch?v=6CzY3WQVYUo&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=4
+/////////////////////////////////////////////////////////////////////////////////////////////
+
