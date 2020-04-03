@@ -27,6 +27,10 @@ Cómo deshago una modificación
 ¿Cómo deshago un commit?
 
 ¿Cómo revierto un commit?
+
+Introducción a las ramas (branches)
+
+ Cómo crear, modificar y eliminar branches
 =====================================================================
 
 Video tutorial 
