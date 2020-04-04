@@ -34,12 +34,17 @@ Temario
 
 010 Commits bajo el workflow Feature Branch
 
-
-
-
 011 ¿Cómo hacer un merge?
 
 012 ¿Cómo resolver un conflicto en el merge?
+
+013-Como-construir-alias
+
+014-Como-resolver-conflictos-en-Git
+
+015-Como-usar-los-tags
+
+016-Que-son-los-tags-anotados
 
 =====================================================================
 
