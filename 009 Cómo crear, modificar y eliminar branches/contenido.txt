@@ -25,3 +25,10 @@ Podemos cambiar los noimbres de las ramas
 {git branch -d [nombre-rama]}
 Esto eliminara la rama 
 ----------------------------------------------------------
+
+//////////////////////////////////////////////////////////
+-----------
+Referencias 
+-----------
+https://www.youtube.com/watch?v=j0U9jBmP3LM&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=9
+//////////////////////////////////////////////////////////
