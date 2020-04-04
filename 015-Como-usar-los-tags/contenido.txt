@@ -1,0 +1,42 @@
+﻿
+==========================
+ Como usar tags  en  git 
+==========================
+
+
+ Para nombrar la nueva tag  samos  
+-------------------------------------
+ git tag [nombre-tag] [codigo-commit]
+-------------------------------------
+
+
+ Para eliminarla usamos 
+------------------------
+ git  tag nombre-tag -d
+------------------------
+
+
+Para cambiar a este estado del  ir al estado del tag  usamos  
+-------------------------
+git checkout nombre-tag
+-------------------------
+
+
+** Nota **
+Podemos generar ramas desde el commit donde estemos ubicados en ese momento 
+para ubicarnos en un commit ya sea por el tag  o por el código de commit usamos 
+--------------------------------
+git checkout [tag] or [comit-code]
+--------------------------------
+
+Para ver todos los tag que hemos creado  usamos 
+-------
+git tag
+-------
+
+-------------------------------------
+===========
+Referencias 
+===========
+https://www.youtube.com/watch?v=5DkX3HFgklM&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=15
+-------------------------------------
