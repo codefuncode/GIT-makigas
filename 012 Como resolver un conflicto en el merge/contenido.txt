@@ -6,11 +6,11 @@ Conflictos en git
 
 Los conflictos en git  ocurren cuando modificamos la  rama  máster después de crear una rama  y a  su ves intentar fusionar las ramas esto genera  implementación dudosa ya que las modificaciones de la  rama externa no contiene la modificación  de la rama  máster por que no fie hace cronológicamente. O sea, fue echo después de generar la rama desde un punto en especifico del estado del proyecto. 
 
-Para trabajar  con funciones es conveniente usar  el siguente commendo que nos mustra las ramificaciones 
+Para trabajar  con funciones es conveniente usar  el siguiente comando que nos mustra las ramificaciones 
 git log --oneline --decorate --all --graph
 
 
-Cuando modifiicamso la rama master y de esta ya ssalio una rama con anterioridad que a su vez esa rama crreada tambien ha sido miodificada surje un conflito y git no dara la oprtunidad de ver dentro ndel codigo que lineas dejar y cuales quitar parra complatar la fusuion 
+Cuando modificar la rama máster y de esta ya salio una rama con anterioridad que a su vez esa rama creada tambien ha sido modificada sur je un conflicto y git no dará la oportunidad de ver dentro del código que lineas dejar y cuales quitar parra completar la fusión 
 
 Regferencias 
 https://www.youtube.com/watch?v=3-rCELg8feQ&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=12
