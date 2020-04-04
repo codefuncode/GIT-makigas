@@ -1,1 +1,26 @@
-Commits bajo el workflow Feature Branch
+
+
+---------------------------------------
+Rama de funciones de flujo de trabajo
+---------------------------------------
+
+
+Comandos 
+{git commit}
+
+
+{git checkout}
+
+
+{git branch}
+
+
+{git add .}
+
+{git log --oneline -decorate --all}
+{git log --oneline --decorate --all --graph}
+
+
+
+
+
