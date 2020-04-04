@@ -1,1 +1,9 @@
-contenido.txt
+﻿
+
+Como hacer un merge
+
+---------------------------------------------------------------------
+{git merge nombre-rama}
+Debemos colocarnos en la rama master para ejecutar este comando si 
+queremos incorporar a la rama  master los cambios de la rama exterior 
+---------------------------------------------------------------------
