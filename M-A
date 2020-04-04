@@ -1,3 +1,0 @@
-Renombrado de carpetas
-
-Debido a un conflicto cuando se aplica un cambio en el repositorio  por ejemplo cuando deseamos agregar  un solo archivo a un commit osea generar commit  por cada archivo por separado no reconoce la ruta con espacios  por lo que se corrige omitiendo espacio por un  guion  
