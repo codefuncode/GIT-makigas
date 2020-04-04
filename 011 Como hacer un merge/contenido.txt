@@ -2,7 +2,6 @@
 
 Como hacer un merge
 
-
 ---------------------------------------------------------------------
 {git merge nombre-rama}
 Debemos colocarnos en la rama master para ejecutar este comando si 
