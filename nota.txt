@@ -7,7 +7,7 @@ Una breve descripción c donde podemos buscar la información necesaria de los c
 
 Estos comando pueden no guardar relación directa con git sin embargo son útiles en con sola para buscar y realizar muchas operaciones por consola muy útiles. 
 
-Comando {cat} para mas información sobre este comando   escribir en la consola {cat --help}
+Comando {cat} para mas información sobre este comando  escribir en la consola {cat --help}
 
 Comando {cd} para ver mas información  escribir en consola {cd --help}
 
