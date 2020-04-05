@@ -1,1 +1,3 @@
-contenido.txt
+﻿
+
+Introducción teórica presentada sobre repositorios en servidores como Git Hub y adicionalmente nos presenta al posibilidad de hacerlo, de manera local sin pasar por servidores e inclusive compartir código con compañeros sin tener en entrar en contacto con un servidor.  
