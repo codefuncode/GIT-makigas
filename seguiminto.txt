@@ -65,20 +65,23 @@ https://www.youtube.com/watch?v=h145ORRg7Ao&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXc
 017-Stash-como-esconder-cambios-en-Git
 https://www.youtube.com/watch?v=fD7ZOK5kZMs&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=17
 
-
 018-Introducción-a-remotos
 https://www.youtube.com/watch?v=tenOpi8KPrc&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=18
 
-
 019-Cómo-hacer-push
+https://www.youtube.com/watch?v=jgeLj45G0tk&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=20&t=9s
 
 020-Como-clonar-y-hacer-pull
+https://www.youtube.com/watch?v=t8O7dMDD5nw&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=21&t=0s
 
 021-Fetch-y-pull-rebase
+https://www.youtube.com/watch?v=r-PTFYVmGNo&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=22&t=0s
 
 022-Como-hacer-un-rebase
+https://www.youtube.com/watch?v=_kheHCD5m7Q&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=23&t=0s
 
 023-Rebase-interactivo-reescribir-el-historial
+https://www.youtube.com/watch?v=0_QwiNnj_dA&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=24&t=0s
 
 
 =====================================================================
