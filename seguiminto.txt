@@ -62,5 +62,9 @@ https://www.youtube.com/watch?v=5DkX3HFgklM&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXc
 016-Que-son-los-tags-anotados
 https://www.youtube.com/watch?v=h145ORRg7Ao&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=16
 
+017-Stash-como-esconder-cambios-en-Git
+https://www.youtube.com/watch?v=fD7ZOK5kZMs&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=17
+
+
 =====================================================================
 
