@@ -1,1 +1,5 @@
-contennido.txt
+﻿
+
+La palabra otigin contiene los datos que ingresamos en git remote add origin donde origin  es la palabra que describe  los datos del repositorio remoto
+
+git pull origin master
