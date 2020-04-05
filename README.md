@@ -5,7 +5,9 @@ Documentación del curso  tomado en  https://www.youtube.com/playlist?list=PLTd5
 Para estar al tanto de las documentaciones de cursos  puedes  sígueme en las redes sociales 
 
 Twitter https://twitter.com/codefuncode
+
 Facebook  https://www.facebook.com/codefuncode/
+
 Inkedin  https://www.linkedin.com/in/codefuncode/
 
 Correo electrónico codefuncode@protonmail.com
