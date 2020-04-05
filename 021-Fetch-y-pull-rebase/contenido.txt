@@ -52,3 +52,44 @@ Opciones relacionadas a fetch
     --show-forced-updates
                           verificar updates forzados en todos los branch actualizados
     --set-upstream        configurar upstream para git pulll/fetch
+
+
+
+
+git merge -h
+uso: git merge [<opciones>] [<commit>...]
+   o: git merge --abort
+   o: git merge --continue
+
+    -n                    no mostrar un diffstat al final de la fusión
+    --stat                mostrar un diffstat al final de la fusión
+    --summary             (sinónimo para --stat)
+    --log[=<n>]           agregar (como máximo <n>) entradas del shortlog al mensaje del commit de fusión
+    --squash              crear un commit único en lugar de hacer una fusión
+    --commit              realizar un commit si la fusión es exitosa (default)
+    -e, --edit            editar mensaje antes de realizar commit
+    --cleanup <modo>      cómo quitar espacios y #comentarios de mensajes
+    --ff                  permitir fast-forwars (default)
+    --ff-only             abortar si fast-forward no es posible
+    --rerere-autoupdate   actualizar el índice con la resolución de conflictos reutilizada si es posible
+    --verify-signatures   verificar que el commit nombrado tiene una firma GPG válida
+    -s, --strategy <estrategia>
+                          estrategia de fusión para usar
+    -X, --strategy-option <opción=valor>
+                          opción para la estrategia de fusión seleccionada
+    -m, --message <mensaje>
+                          fusionar mensaje de commit (para una fusión no fast-forward)
+    -F, --file <ruta>     leer mensaje desde un archivo
+    -v, --verbose         ser más verboso
+    -q, --quiet           ser más discreto
+    --abort               abortar la fusión en progreso actual
+    --quit                --abort pero deja el índice y el árbol de trabajo solos
+    --continue            continuar la fusión en progreso actual
+    --allow-unrelated-histories
+                          permitir fusionar historias no relacionadas
+    --progress            forzar el reporte de progreso
+    -S, --gpg-sign[=<key-id>]
+                          Firmar commit con GPG
+    --overwrite-ignore    actualizar archivos ignorados (default)
+    --signoff             agregar Signed-off-by: (firmado por)
+    --no-verify           hacer un bypass a hooks pre-merge-commit y commit-msg
