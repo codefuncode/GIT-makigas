@@ -3,21 +3,3 @@
 Introducción teórica presentada sobre repositorios en servidores como Git Hub y adicionalmente nos presenta al posibilidad de hacerlo, de manera local sin pasar por servidores e inclusive compartir código con compañeros sin tener en entrar en contacto con un servidor.  
 
 
- Para simplificar esta tarea usamos repositorio totalmente n blamco 
-
-
- Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
-
-…or create a new repository on the command line
-echo "# curso-git" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/codefuncode/curso-git.git
-git push -u origin master
-                
-…or push an existing repository from the command line
-git remote add origin https://github.com/codefuncode/curso-git.git
-git push -u origin master
-…or import code from another repository
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
