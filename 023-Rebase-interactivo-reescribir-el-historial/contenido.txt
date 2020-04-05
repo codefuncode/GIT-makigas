@@ -1,1 +1,49 @@
-contenido.txt
+ git rebase -h
+uso: git rebase [-i] [opciones] [--exec <cmd>] [--onto <newbase> | --keep-base] [<upstream> [<branch>]]
+   o: git rebase [-i] [opciones] [--exec <cmd>] [--onto <newbase>] --root[<rama>]
+   o: git rebase --continue | --abort | --skip | --edit-todo
+
+    --onto <revision>     haciendo rebase hacia rama dada en lugar de upstream
+    --keep-base           usar la base de fusión de upstream y la rama como base actual
+    --no-verify           permitir ejecutar hook pre-rebase
+    -q, --quiet           ser silencioso implica --no-stat
+    -v, --verbose         mostrar un diffstat de lo que cambió en upstream
+    -n, --no-stat         no mostrar un diffstat de lo que cambió en upstream
+    --signoff             agregar una línea "Firmado-por" al mensaje de cada commit
+    --ignore-whitespace   pasado a 'git am'
+    --committer-date-is-author-date
+                          pasado a 'git am'
+    --ignore-date         pasado a 'git am'
+    -C <n>                pasado a 'git-apply'
+    --whitespace <acción>
+                          pasado a 'git-apply'
+    -f, --force-rebase    cherry-pick todos los commits, incluso si no han cambiado
+    --no-ff               cherry-pick todos los commits, incluso si no han cambiado
+    --continue            continuar
+    --skip                saltar el parche y continuar
+    --abort               aborta y revisa la rama original
+    --quit                aborta pero mantiene HEAD donde está
+    --edit-todo           editar la lista de pendientes durante el rebase interactivo
+    --show-current-patch  muestra el archivo parche siendo aplicado o fusionado
+    --apply               usar estrategias de apply para el rebase
+    -m, --merge           usar estrategias de fusión para el rebase
+    -i, --interactive     permitir al usuario editar la lista de commits para rebasar
+    --rerere-autoupdate   actualizar el índice con la resolución de conflictos reutilizada si es posible
+    --empty <{drop,keep,ask}>
+                          como manejar commits que se vuelven vacíos
+    --autosquash          mover commits que comienzan con squash!/fixup! bajo -i
+    -S, --gpg-sign[=<key-id>]
+                          Commits con firma GPG
+    --autostash           ejecutar automáticamente stash/stash pop antes y después
+    -x, --exec <ejecutar>
+                          agregar líneas exec tras cada acommit de la lista editable
+    -r, --rebase-merges[=<modo>]
+                          intentar fusiones por rebase en lugar de saltarlas
+    --fork-point          use 'merge-base --fork-point' para refinar upstream
+    -s, --strategy <estrategia>
+                          usar la estrategia de merge dada
+    -X, --strategy-option <opción>
+                          pasar el argumento para la estrategia de fusión
+    --root                hacer rebase a todos los commits alcanzables hasta la raíz(raíces)
+    --reschedule-failed-exec
+                          reprogramar automaticamente cualquier `exec` que falle

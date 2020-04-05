@@ -1,1 +1,96 @@
+
+git pull rebase -h
+uso: git pull [<opciones>] [<repositorio> [<especificación-de-referencia>...]]
+
+    -v, --verbose         ser más verboso
+    -q, --quiet           ser más discreto
+    --progress            forzar el reporte de progreso
+    --recurse-submodules[=<en demanda>]
+                          control de fetch recursivo en submódulos
+
+Opciones relacionadas a fusión
+    -r, --rebase[=(false|true|merges|preserve|interactive)]
+                          incorporar cambios por rebase en lugar de fusión
+    -n                    no mostrar un diffstat al final de la fusión
+    --stat                mostrar un diffstat al final de la fusión
+    --log[=<n>]           agregar (como máximo <n>) entradas del shortlog al mensaje del commit de fusión
+    --signoff[=...]       agregar Signed-off-by: (firmado por)
+    --squash              crear un commit único en lugar de hacer una fusión
+    --commit              realizar un commit si la fusión es exitosa (default)
+    --edit                editar mensaje antes de realizar commit
+    --cleanup <modo>      cómo quitar espacios y #comentarios de mensajes
+    --ff                  permitir fast-forward
+    --ff-only             abortar si fast-forward no es posible
+    --verify-signatures   verificar que el commit nombrado tiene una firma GPG válida
+    --autostash           ejecutar automáticamente stash/stash pop antes y después de rebase
+    -s, --strategy <estrategia>
+                          estrategia de fusión para usar
+    -X, --strategy-option <opción=valor>
+                          opción para la estrategia de fusión seleccionada
+    -S, --gpg-sign[=<key-id>]
+                          Firmar commit con GPG
+    --allow-unrelated-histories
+                          permitir fusionar historias no relacionadas
+
+Opciones relacionadas a fetch
+    --all                 extraer de todos los remotos
+    -a, --append          adjuntar a .git/FETCH_HEAD en lugar de sobrescribir
+    --upload-pack <ruta>  ruta para cargar el paquete al final del remoto
+    -f, --force           forzar sobrescritura de la rama local
+    -t, --tags            extraer todos los tags y objetos asociados
+    -p, --prune           limpiar ramas remotas rastreadas que ya no están en el remoto
+    -j, --jobs[=<n>]      número de submódulos que realizan pull en paralelo
+    --dry-run             dry run ( ejecución en seco)
+    -k, --keep            mantener el paquete descargado
+    --depth <profundidad>
+                          historia profunda de un clon superficial
+    --unshallow           convertir a un repositorio completo
+    --update-shallow      aceptar refs que actualicen .git/shallow
+    --refmap <refmap>     especificar extracción de refmap
+    -4, --ipv4            solo usar direcciones IPv4
+    -6, --ipv6            solo usar direcciones IPv6
+    --show-forced-updates
+                          verificar updates forzados en todos los branch actualizados
+    --set-upstream        configurar upstream para git pulll/fetch
+
+
+
+
+git merge -h
+uso: git merge [<opciones>] [<commit>...]
+   o: git merge --abort
+   o: git merge --continue
+
+    -n                    no mostrar un diffstat al final de la fusión
+    --stat                mostrar un diffstat al final de la fusión
+    --summary             (sinónimo para --stat)
+    --log[=<n>]           agregar (como máximo <n>) entradas del shortlog al mensaje del commit de fusión
+    --squash              crear un commit único en lugar de hacer una fusión
+    --commit              realizar un commit si la fusión es exitosa (default)
+    -e, --edit            editar mensaje antes de realizar commit
+    --cleanup <modo>      cómo quitar espacios y #comentarios de mensajes
+    --ff                  permitir fast-forwars (default)
+    --ff-only             abortar si fast-forward no es posible
+    --rerere-autoupdate   actualizar el índice con la resolución de conflictos reutilizada si es posible
+    --verify-signatures   verificar que el commit nombrado tiene una firma GPG válida
+    -s, --strategy <estrategia>
+                          estrategia de fusión para usar
+    -X, --strategy-option <opción=valor>
+                          opción para la estrategia de fusión seleccionada
+    -m, --message <mensaje>
+                          fusionar mensaje de commit (para una fusión no fast-forward)
+    -F, --file <ruta>     leer mensaje desde un archivo
+    -v, --verbose         ser más verboso
+    -q, --quiet           ser más discreto
+    --abort               abortar la fusión en progreso actual
+    --quit                --abort pero deja el índice y el árbol de trabajo solos
+    --continue            continuar la fusión en progreso actual
+    --allow-unrelated-histories
+                          permitir fusionar historias no relacionadas
+    --progress            forzar el reporte de progreso
+    -S, --gpg-sign[=<key-id>]
+                          Firmar commit con GPG
+    --overwrite-ignore    actualizar archivos ignorados (default)
+    --signoff             agregar Signed-off-by: (firmado por)
+    --no-verify           hacer un bypass a hooks pre-merge-commit y commit-msg
 contenido.txt
