@@ -1,1 +1,43 @@
-contenido.txt
+﻿
+NAME
+[NOMBRE]
+
+git-stash - Stash the changes in a dirty working directory away
+[Git-stash - Guarda los cambios en un directorio de trabajo sucio]
+
+DESCRIPTION
+[DESCRIPCIÓN]
+
+Use git stash when you want to record the current state of the working directory and the index, but want to go back to a clean working directory.
+[Use git stash cuando desee registrar el estado actual del directorio de trabajo y el índice, pero desee volver a un directorio de trabajo limpio.]
+
+
+The command saves your local modifications away and reverts the working directory to match the HEAD commit.
+[El comando guarda sus modificaciones locales y revierte el directorio de trabajo para que coincida con la confirmación HEAD.]
+
+The modifications stashed away by this command can be listed with git stash list, inspected with git stash show, and restored (potentially on top of a different commit) with git stash apply.
+[Las modificaciones ocultas por este comando se pueden enumerar con git stash list, inspeccionar con git stash show y restaurar (potencialmente sobre una confirmación diferente) con git stash aplicar.]
+
+Calling git stash without any arguments is equivalent to git stash push.
+[Llamar a git stash sin ningún argumento es equivalente a git stash push.]
+
+A stash is by default listed as "WIP on branchname …​", but you can give a more descriptive message on the command line when you create one.
+[Un alijo se enumera de forma predeterminada como 'WIP en nombre de sucursal ...', pero puede crear un mensaje más descriptivo en la línea de comando cuando cree uno.]
+
+The latest stash you created is stored in refs/stash; older stashes are found in the reflog of this reference and can be named using the usual reflog syntax (e.g. stash@{0} is the most recently created stash, stash@{1} is the one before it, stash@{2.hours.ago} is also possible).
+[El último alijo que creó se almacena en referencias / alijo; Las reservas más antiguas se encuentran en el registro de esta referencia y se pueden nombrar utilizando la sintaxis habitual de registro (por ejemplo, stash @ {0} es el alijo creado más recientemente, stash @ {1} es el anterior, stash@{2.hours .ago} también es posible).]
+
+Stashes may also be referenced by specifying just the stash index (e.g. the integer n is equivalent to stash@{n}).
+[También se puede hacer referencia a las reservas especificando solo el índice de la reserva (por ejemplo, el número entero n es equivalente a la reserva @ {n}).]
+
+
+-----------------------------------------------
+Vea información sobre los comandos aquí https://git-scm.com/docs/git-stash#_commands
+
+Esta herramienta guarda en la papelera los cambios, debemos tener cuidado a la hora de guardar muchos de estos pues podremos olvidar, el como, el  porque y para que lo guardamos. Podemos crear una rama desde el punto de este y así identificar mejor estos cambios gir es para facilitar el trabajo  y no para complicarlo así que buenas practicas son buenas practicas. 
+-----------------------------------------------
+
+
+Referencias 
+
+https://git-scm.com/docs/git-stash
