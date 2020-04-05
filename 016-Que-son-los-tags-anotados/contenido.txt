@@ -1,1 +1,19 @@
-contenido.txt
+﻿
+==========================
+Que son los tags anotados 
+==========================
+
+Para trabajar con tags anotados  debemos usar el coman do {git tag -a} Esto nos  proporciona un espacio para escribir todo lo necesario para que otro programados comprenda el propósito de este tag. Éstos son usados con frecuencia pata identificar versiones de códigos adicionalmente tenemos {git show} lo que nos da información del argumento que pasemos por parámetro es decir después de el comando git show escribimos un argumento que es el nombre de en commit , archivo directorio u otro objeto la sintaxis seria de la siguiente forma {git show nombre-objeto}
+
+Uso del comando git tag -l este nos da in listado de todos los tags creados y adicionalmente podemos usar un parámetro  donde se implementa el uso de * para remplazar cadenas de caracteres como cuando realizamos una  consulta de MySql y le agregamos el [%] después o antes de los caracteres o palabras lo cual quedaría de la siguiente forma {git tag -l [palabra*] o [*palabra] o [pala*ra]} PO podemos usar todas las combinaciones posibles donde el asterisco reemplaza una cadena de caracteres 
+
+Para eliminar los tags usamos git tag -d [nombre-tag] adicionalmente podemos agregar  un tag a un commit en particular esto seria de la siguiente forma {git tag nombre-tag id-commmit}
+
+
+Comandos usados 
+{ls -a}
+{git tag -a} 
+{git show}
+{git show nombre-objeto}
+{git tag -l [palabra*] o [*palabra] o [pala*ra]} 
+{git tag nombre-tag id-commmit}
