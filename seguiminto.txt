@@ -66,5 +66,20 @@ https://www.youtube.com/watch?v=h145ORRg7Ao&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXc
 https://www.youtube.com/watch?v=fD7ZOK5kZMs&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=17
 
 
+018-Introducción-a-remotos
+https://www.youtube.com/watch?v=tenOpi8KPrc&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU&index=18
+
+
+019-Cómo-hacer-push
+
+020-Como-clonar-y-hacer-pull
+
+021-Fetch-y-pull-rebase
+
+022-Como-hacer-un-rebase
+
+023-Rebase-interactivo-reescribir-el-historial
+
+
 =====================================================================
 

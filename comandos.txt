@@ -1,0 +1,36 @@
+
+
+
+git init 
+Inicia repositorio 
+
+git add 
+Agrega cambios al stage
+
+git status 
+Muestra el estado del repositorio 
+
+git commit 
+graba ls cambios con un mensahje 
+
+git log 
+despliega todos los commit 
+
+git diff 
+muestra los cambios realizados 
+
+git checkout
+ Nos lleva al commit  que se le indica en el parametro 
+
+ git branch
+Crea y elimina ramas 
+
+git tag 
+Crea etiquetas 
+
+--------------------------------
+Hacer push basico 
+--------------------------------
+git remote add origin  {url}
+git push -u origin master
+--------------------------------
